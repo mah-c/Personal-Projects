@@ -1,6 +1,57 @@
-<html>
-  <h1>Projects</h1>
-  <ul>
-    <li><a href="https://mah-c.github.io/Personal-Projects/counterApp/">Counter-App </a></li>
-  </ul>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Projects</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-color: #f4f4f9;
+        text-align: center;
+      }
+      header {
+        background: lightseagreen;
+        color: white;
+        padding: 20px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        gap: 20px;
+      }
+      .card {
+        background-color: white;
+        padding: 20px;
+        width: 200px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        transition: 0.2s;
+      }
+      .card:hover {
+        transform: scale(1.05);
+      }
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Projects</h1>
+      <p>Simple HTMLS,CSS & JS apps</p>
+    </header>
+    <div class="container">
+      <div class="card">
+        <a href="https://mah-c.github.io/Personal-Projects/counterApp/"
+          >CounterApp</a
+        >
+      </div>
+    </div>
+  </body>
 </html>
