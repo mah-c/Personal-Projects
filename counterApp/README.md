@@ -20,4 +20,4 @@ Open `index.html` in your browser.
 
 ## Live Demo
 
-// github pages link
+https://mah-c.github.io/Personal-Projects/counterApp/
